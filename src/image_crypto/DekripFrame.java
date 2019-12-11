@@ -55,8 +55,8 @@ public class DekripFrame extends JFrame{
     JPanel panelIMG = new JPanel(); 
     JPanel panelKey = new JPanel();
     Boolean isTampil = false;
-    JButton dek = new JButton("Decryption"); 
-    JLabel vigenere = new JLabel("Vigenere dan RSA key"); 
+    JButton dek = new JButton("Decrypt!"); 
+    JLabel vigenere = new JLabel("Vigenere and RSA key"); 
 
     Font font12 = new Font("Tahoma", 0, 12);
     Font font14 = new Font("Tahoma", 0, 16); 
