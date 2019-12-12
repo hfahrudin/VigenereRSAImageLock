@@ -2,7 +2,7 @@
 <p align="center">
   <img width="260" height="150" src="https://user-images.githubusercontent.com/25025173/70690932-64f62780-1cea-11ea-8fc7-0926fb6398b3.PNG">
 </p>
-Safe your image with some crypto thingy. In this app, it use RSA and vigenere encryption. Inspired by my past project and course from college
+Safe your image with some crypto thingy. In this app, it use RSA and vigenere encryption. Inspired by my past project and course from college.
 
 Encryption:
 <p align="center">
