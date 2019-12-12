@@ -299,7 +299,7 @@ public class DekripFrame extends JFrame{
             n=p*q;
 
         } catch (FileNotFoundException ex) {
-            int reply = JOptionPane.showConfirmDialog(null, "Kunci tidak ditemukan. Buka gambar lain??", "Error !!!", JOptionPane.YES_NO_OPTION);
+            int reply = JOptionPane.showConfirmDialog(null, "Cannot find key. Do you want to open another image?", "Error !!!", JOptionPane.YES_NO_OPTION);
             if(reply == JOptionPane.YES_OPTION){ 
                 openImage();
             }else{
@@ -426,10 +426,10 @@ public class DekripFrame extends JFrame{
                 int imgWidth = img.getWidth(this); 
                 int imgHeight = img.getHeight(this); 
                 g.setFont(font14b);
-                g.drawString("Proses Dekripsi Vigenere", 270, 450);
-                g.drawString("Proses Dekripsi RSA  ", 270+396, 450);
-                g.drawString("Waktu total proses dekripsi", 460, 530);
-                g.drawString("Dimensi Gambar", 460, 600); g.setFont(font14);
+                g.drawString("Decryption Time : Vigenere", 270, 450);
+                g.drawString("Decryption Time : RSA  ", 270+396, 450);
+                g.drawString("Elapsed time", 460, 530);
+                g.drawString("Dimension", 460, 600); g.setFont(font14);
                 if(CbTime != null && RbTime != null){
                     double Ct = (double)(CbTime - CaTime)/1000; double Rt = (double)(RbTime - RaTime)/1000;
                     g.drawString("waktu "+String.valueOf(Ct)+" s", 270, 480);
