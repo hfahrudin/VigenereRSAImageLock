@@ -32,8 +32,6 @@ Secure your images with cryptographic algorithms. This application leverages **R
 ## Installation and Setup
 
 1. **Clone the repository**:
-   ```bash
-   ```
 
 2. **Open the project in NetBeans**:
    - Launch **NetBeans** and open the project by selecting `File` -> `Open Project`.
